@@ -14,7 +14,11 @@ final class Service {
         
     }
     
-    public func execute(_ request: Request, completion: @escaping() -> Void) {
+    public func execute<T: Codable>(
+        _ request: Request,
+        expecting type: T.Type,
+        completion: @escaping(Result<T, Error>) -> Void
+    ) {
         
     }
 }
