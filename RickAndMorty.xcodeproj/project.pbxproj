@@ -26,6 +26,9 @@
 		F93CBC76295F80A00008A98D /* SingleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93CBC75295F80A00008A98D /* SingleLocation.swift */; };
 		F93CBC78295F83B20008A98D /* CharacterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93CBC77295F83B20008A98D /* CharacterStatus.swift */; };
 		F93CBC7A295F83F70008A98D /* CharacterGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = F93CBC79295F83F70008A98D /* CharacterGender.swift */; };
+		F94615182969ADB400C49785 /* CharacterListViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94615172969ADB400C49785 /* CharacterListViewViewModel.swift */; };
+		F946151A2969AEB600C49785 /* CharacterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94615192969AEB600C49785 /* CharacterListView.swift */; };
+		F946151C2969B7F400C49785 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F946151B2969B7F400C49785 /* Extensions.swift */; };
 		F9B8228B29630D6D00BF7BA3 /* GetAllCharactersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B8228A29630D6D00BF7BA3 /* GetAllCharactersResponse.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +54,9 @@
 		F93CBC75295F80A00008A98D /* SingleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLocation.swift; sourceTree = "<group>"; };
 		F93CBC77295F83B20008A98D /* CharacterStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterStatus.swift; sourceTree = "<group>"; };
 		F93CBC79295F83F70008A98D /* CharacterGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterGender.swift; sourceTree = "<group>"; };
+		F94615172969ADB400C49785 /* CharacterListViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewViewModel.swift; sourceTree = "<group>"; };
+		F94615192969AEB600C49785 /* CharacterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListView.swift; sourceTree = "<group>"; };
+		F946151B2969B7F400C49785 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		F9B8228A29630D6D00BF7BA3 /* GetAllCharactersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAllCharactersResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +104,7 @@
 		F93CBC58295F21660008A98D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F94615192969AEB600C49785 /* CharacterListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -113,6 +120,7 @@
 		F93CBC5B295F218C0008A98D /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				F94615172969ADB400C49785 /* CharacterListViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -134,6 +142,7 @@
 				F93CBC6D295F65E50008A98D /* Service.swift */,
 				F93CBC6F295F66080008A98D /* Request.swift */,
 				F93CBC71295F67BD0008A98D /* Endpoint.swift */,
+				F946151B2969B7F400C49785 /* Extensions.swift */,
 			);
 			path = APIClient;
 			sourceTree = "<group>";
@@ -254,6 +263,7 @@
 			files = (
 				F93CBC49295F146A0008A98D /* TabViewController.swift in Sources */,
 				F93CBC78295F83B20008A98D /* CharacterStatus.swift in Sources */,
+				F946151A2969AEB600C49785 /* CharacterListView.swift in Sources */,
 				F93CBC70295F66090008A98D /* Request.swift in Sources */,
 				F93CBC6A295F55980008A98D /* EpisodeViewController.swift in Sources */,
 				F93CBC72295F67BD0008A98D /* Endpoint.swift in Sources */,
@@ -264,11 +274,13 @@
 				F93CBC61295F53B60008A98D /* Character.swift in Sources */,
 				F93CBC5F295F53780008A98D /* Location.swift in Sources */,
 				F93CBC6E295F65E50008A98D /* Service.swift in Sources */,
+				F946151C2969B7F400C49785 /* Extensions.swift in Sources */,
 				F93CBC47295F146A0008A98D /* SceneDelegate.swift in Sources */,
 				F93CBC68295F557A0008A98D /* LocationViewController.swift in Sources */,
 				F93CBC7A295F83F70008A98D /* CharacterGender.swift in Sources */,
 				F93CBC74295F73550008A98D /* Origin.swift in Sources */,
 				F93CBC76295F80A00008A98D /* SingleLocation.swift in Sources */,
+				F94615182969ADB400C49785 /* CharacterListViewViewModel.swift in Sources */,
 				F9B8228B29630D6D00BF7BA3 /* GetAllCharactersResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
